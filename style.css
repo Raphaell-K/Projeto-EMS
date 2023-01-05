@@ -114,6 +114,9 @@ div#campo2{ /* Alinhamento do 1º input */
     top: 9px;
     left: calc(50% - 125px);
 }
+#menu-bar{
+    display: none;
+}
 
 
 
