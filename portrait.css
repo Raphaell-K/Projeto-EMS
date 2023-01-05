@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+
+
+/*=========== Página de contato ================*/
+
+
+section.icones-contato{
+    display: block;
+padding: 0px;
+margin: 0px;
+    top: 220px;
+}
+
+ #esconde-lista {
+    display: none;
+} 
+ #abre-lista {
+    display: none;
+} 
+ #esconde-lista li {
+    width: 200px;
+    background-color: #4a90c97c;
+ }
+ #esconde-lista li:hover a{
+    background-color: #44568d;
+ }
+ ul li:hover #esconde-lista {
+    display: block;
+    position: absolute;
+    
+    
+
+}

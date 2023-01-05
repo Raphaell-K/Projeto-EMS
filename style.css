@@ -1,0 +1,248 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body, html {
+    height: 100vh;
+    width: 100vw;
+    background-size:  cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#icone-ems{
+    width: 110px;
+    position: absolute;
+    top: 5px;
+    border-color: #ffffff;
+    
+}
+p#bemvindo{
+    font-size: 9pt;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+/* Logotipo da EMS na navbar  */
+img{
+    width: 80px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    display: inline-block;
+    margin-left: 10px;
+}    
+p{
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.voltar img{ /*icone de volta da pag*/
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 150px;
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    height: 13px;
+    background-image: linear-gradient( to left ,  #1B354A ,#4a90c942 30% );
+}
+footer p {
+    position: absolute;
+    right: 30px;
+    text-align: right ;
+    font-size:xx-small ;
+    padding-top: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/*=============================================================*/
+
+
+/*========= página de login ===========*/
+
+div#imagem{/* div acima dos campos input*/
+    width: 100vw;
+    height: 50px;
+    background-color: #417EB0;
+}section.login{
+    width: 250px;
+    height: 200px;
+    background-color: #536cbd86;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 9px;
+    box-shadow: 2px 2px 4px #476899;
+    overflow: hidden;
+}div.campo{
+    position: relative;
+    top: calc(50% - 90px);
+    left: calc(50% - 100px);
+    margin-bottom: 10px;
+}
+div#campo2{ /* Alinhamento do 1º input */
+    padding-left: 3px;
+}div#entrada {
+    width: 200px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}div#entrada input{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 08pt;
+}.material-symbols-outlined { /* icons do email */
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' -25,
+  'opsz' 40;
+}span {
+    position: relative;
+    top: 9px;
+    left: calc(50% - 125px);
+}
+
+
+
+/*============ página de Contatos =============*/
+
+
+#texto-voltar{
+    font-size: .8em;
+    color: white;
+    position: absolute;
+    top: 210px;
+    padding-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}section.icones-contato{
+    position: relative;
+    left: calc(40% - 100px);
+    top: calc(40% - 100px);
+    width: 70px;
+    padding-left: 10px;
+    display: inline-block;
+}div.iconesCC img{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.692);
+}div.iconesCC:hover{
+    transform: translateY(-5px);
+    transition: .1s;
+}
+
+/* ============== página de entrada depois do login */
+
+section.it{ /* section dos icones */
+    position: relative;
+    top: calc(30% - 100px);
+    left: 30px;
+    height: 110px;
+    width: 0px;
+    margin: 0px;
+}div.documento-instrucao{ /*Div dos icones*/
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color:#4a90c9cb ;
+    box-shadow: 2px 1px 3px rgba(0, 0, 0, 0.808);
+}div.documento-instrucao img{ /* icones */
+    width: 50px;
+}a.icone-documento{ /* link dos icones */
+    position: relative;
+    top: calc(50% - 30px);
+    left: calc(50% - 35px);
+}section.it:hover div.documento-instrucao{
+    background-color: #4a90c9cb;
+    transform:translateY(8px);
+    transition: .1s;
+}
+p.aparecetexto{ /* Texto dos icones */
+    width: 180px;
+    font-size: 10pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #4a90c9cb;
+    position: relative;
+    top: calc(85% - 100px);
+    left: calc(105% - 1px);
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+}section.it:hover p.aparecetexto{
+    color: #fffffffa;
+    font-size: 11pt;
+    background-color: #4a90c9cb;
+    transform:translatex(6px);
+    transition: .1s;
+}
+
+
+/* =============== Créditos de imagem*/
+
+
+section.pexels{
+    position: absolute;
+    top: 250px;
+    left: 99px;
+    
+    
+}
+div#icone-pexels img{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(11, 68, 28, 0.815);
+    
+}#icone-pexels:hover img{
+    transform: translatex(16px);
+    transform: .1s;
+}
+#lateral-pexels{ /* barra para por o pexels*/
+margin-bottom: 50px;
+width: 120px;
+height:87px;
+position: absolute;
+top: 249px;
+left: 30px;
+background-image: linear-gradient(to bottom, #66af9a, #08A679);
+box-shadow: 7px 3px 2px 0px rgb(0 0 0 / 30%);
+border-radius: 9px;
+}
+#lateral-pexels2{ /*barra para por o pexels*/
+    width: 120px;
+    height:87px;
+    position: absolute;
+    top: 358px;
+    left: 30px;
+    background-image: linear-gradient(to bottom, #66af9a, #08A679);
+    box-shadow: 7px 3px 2px 0px rgb(0 0 0 / 30%);
+    border-radius: 9px;
+    }
+#texto-pexels{ 
+    position: absolute;
+    top: 20px;
+    font-size: 1em;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}.Arroba{
+    position: absolute;
+    top: -20px;
+    left: 10px;
+    font-size: 90px;
+    color: rgba(255, 255, 255, 0.144);
+}
+
